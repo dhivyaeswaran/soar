@@ -11,15 +11,15 @@ if __name__=='__main__':
         [l,l,l,l,o],
         [l,l,l,o,o],
         [l,l,l,o,o],
-        [l,o,o,l,o],
-        [o,o,o,o,l/3]
+        [l,o,o,l/2,o],
+        [o,o,o,o,l/4]
     ])
     F0 = np.array([
     [l,l,l,l],
     [l,l,o,o],
     [l,o,l,o],
     [l,o,o,o],
-    [l/3,o,o,o]
+    [l/4,o,o,o]
     ])
     M = 8
     noise = 0.5
